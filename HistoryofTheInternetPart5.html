@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="favicon.ico" rel="shortcut icon" type="image/x-icon" />
+    <!-- Theme Made By www.w3schools.com - No Copyright -->
+    <title>Bootstrap Theme Simply Me</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <style>
+        body {
+            font: 20px Montserrat, sans-serif;
+            line-height: 1.8;
+            color: #f5f6f7;
+        }
+        p {font-size: 16px;}
+        .margin {margin-bottom: 45px;}
+        .bg-1 {
+            background-color: #1abc9c; /* Green */
+            color: #ffffff;
+        }
+        .bg-2 {
+            background-color: #474e5d; /* Dark Blue */
+            color: #ffffff;
+        }
+        .bg-3 {
+            background-color: #ffffff; /* White */
+            color: #555555;
+        }
+        .bg-4 {
+            background-color: #2f2f2f; /* Black Gray */
+            color: #fff;
+        }
+        .container-fluid {
+            padding-top: 70px;
+            padding-bottom: 70px;
+        }
+        .navbar {
+            padding-top: 15px;
+            padding-bottom: 15px;
+            border: 0;
+            border-radius: 0;
+            margin-bottom: 0;
+            font-size: 12px;
+            letter-spacing: 5px;
+        }
+        .navbar-nav  li a:hover {
+            color: #1abc9c !important;
+        }
+    </style>
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-default">
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">Final Project: Part 2</a>
+        </div>
+        <div class="collapse navbar-collapse" id="myNavbar">
+            <ul class="nav navbar-nav navbar-right">
+
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="HistoryOfInternetPart1.html">PART 1</a></li>
+                <li><a href="HistoryOfTheInternetPart2.html">PART 2</a></li>
+                <li><a href="HistoryOfTheInternetPart3.html">PART 3</a></li>
+                <li><a href="HistoryofTheInternetPart4.html">PART 4</a></li>
+                <li><a href="HistoryofTheInternetPart5.html">PART 5</a></li>
+
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<!-- First Container -->
+<div class="container-fluid bg-1 text-center">
+    <h3 class="margin">Project Page</h3>
+    <img src="image.png" class="img-responsive img-circle margin" style="display:inline" alt="Bird" width="350" height="350">
+</div>
+
+<!-- Second Container -->
+<div class="container-fluid bg-2 text-center">
+    <h3 class="margin">What Is The Topic?</h3>
+    <p>How the Intenet Works Part 2 </p>
+</div>
+
+<!-- Third Container (Grid) -->
+<div class="container-fluid bg-3 text-center">
+    <h3 class="margin">How does it work?</h3><br>
+    <div class="row">
+        <div class="col-sm-4">
+            <li>The Internet is not made up of direct dedicated connections, it would be impossible to keep things working of users join, especially since there is guaranteed that each cable has a secure connection to the host.  </li>
+            <li> Information does not follow a straight path if anything it moves around when traveling throughout the internet. </li>
+            <li> Information travels in packets of data, which is like a car, depending on the traffic you use different roads to get to the destination.  </li>
+            <li>Data depending on the size can move at different parts, taking different routes and arriving at different times but once delivered they can reassemble to make the data whole again.  </li>
+            <img src="data:image/png;base64,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" style="width:500px; height: 250px" alt="Image">
+        </div>
+        <div class="col-sm-4">
+            <li>Each packet has the IP address of where it came from and where it is going. 
+            </li>
+            <li>When a packet enters a router, a routing table (list containing routes to a specific network) can be used to determine the following hop address for the packet's source and destination address. Each packet may then be sent to the destination by a separate path, if necessary.
+            </li>
+            <li>DNS servers are connected in a distributed hierarchy, so they can connect to millions of different addresses. For example, “. org, com, Edu”. 
+            </li>
+            <li>Most user do not see or care for Internet addresses. The Domain Name System, DNS, creates websites with corresponding addresses. 
+            </li>
+            <li>Due to the internet being so popular they are making a new IP called IPv6. Creating 340 Undecillion unique addresses. 
+            </li>
+            <li>The earlier numbers identify the country/network and region/network. Then the subnetworks then finally the address of the specific device. 
+            </li>
+            
+            <img src="https://www.wikihow.com/images/8/85/Find-out-Your-IP-Address-Step-31.jpg" class="img-responsive margin" style="width:500px; height: 250px " alt="Image">
+        </div>
+        <div class="col-sm-4">
+            <li> When sending packets, the router chooses the cheapest available patches. “cheapest”: time – polycystic sand relationships between companies. </li>
+            <li> Each packet has the IP address of where it came from and where it is going. </li>
+            <li> Data travels through the internet in a must less direction fashion. </li>
+            <li> </li>
+            <img src="download.jpg" style="width:500px; height: 250px" alt="Image">
+        </div>
+    </div>
+</div>
+
+<!-- Footer -->
+<footer class="container-fluid bg-4 text-center">
+    <p>This is part 1 of the How The Internet Works</p>
+</footer>
+</body>
+</html>
